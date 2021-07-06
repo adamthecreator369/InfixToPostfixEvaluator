@@ -66,12 +66,17 @@ public class InfixParser {
 				
 				// The above checks for the following scenarios:
 				// 1.) A '-' symbol is the first character of the expression
+				//     example: -2 +1
 				// 2.) A '-' symbol is found directly after an operator
+				//     example: 1 +-2
 				// 3.) A '-' symbol is found directly after an operator that 
 				//     is followed by whitespace.
+				//     example: 1 +   -2
 				// 4.) A '-' symbol is found directly after an opening parentheses.
+				//     example 1 + (-2+1)
 				// 5.) A '-' symbol is found directly after an opening parentheses 
 				//     which is followed by whitespace.
+				//     example: 1 + (    -2+1)
 		
 				// Append the operator.
 				formattedExp.append(exp.charAt(i));
