@@ -34,7 +34,7 @@ public class SinglyLinkedStack<T> {
 				original = original.next;
 			}
 		}
-	}
+	} // Time Complexity: O(n)
 
 	// Class-member methods
 	/**
