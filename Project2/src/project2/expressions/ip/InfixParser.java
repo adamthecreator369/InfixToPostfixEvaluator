@@ -25,7 +25,6 @@ public class InfixParser {
 	} // Time Complexity: O(1)
 	
 	/* Written by Neha Metlapalli on 07/03/2021 */
-	/* Comments added by Adam Jost on 07/04/2021 */
 	/* Update by Adam Jost on 07/05/2021 */ 
 	/* Update by Adam Jost on 07/06/2021 */
 	/**
